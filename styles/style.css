@@ -1,0 +1,49 @@
+
+
+/*
+rules the whole page will follow
+*/
+body{
+background-color: #C3F4FF;
+}
+
+/*
+CSS rules the main body should follow should follow
+*/
+.mainBody{
+   text-align:center;
+   margin:auto;
+   width:50%;
+   padding:10px 15px 10px 10px;
+   /*border:10px ridge rgb(150,20,20);*/
+}
+a:hover, a:active, a:focus { 
+    /*background-color: rgb(255, 0, 251);*/
+    background-color: #1BA9CD
+}  
+/*
+CSS rules that all paragraphs have by default
+*/
+p{
+    padding:0px 20px 0px 20px;
+    overflow:scroll;
+}
+/*
+rule for intro header
+*/
+#intro-header{
+    font-size: 20px;
+}
+
+/*
+CSS rules for only first paragraph
+*/
+#first-paragraph{
+    /*background:rgb(200,200,200);*/
+}
+
+.profile-image{
+    height:200px;
+    border:10px ridge rgb(124,90,7);
+}
+

@@ -1,49 +1,184 @@
 
-
 /*
-rules the whole page will follow
+CSS rules for the whole body
 */
 body{
-background-color: #C3F4FF;
+margin:0;
 }
-
 /*
-CSS rules the main body should follow should follow
+CSS rules for the introduction section
 */
-.mainBody{
+#introduction{
+   background-color: #004643;
+   text-align:center;
+   
+   width:100%;
+   padding:20px 0px 10px 0px;
+   border:0px ridge rgb(150,20,20);
+}
+/*
+CSS rules for the mobi section
+*/
+#mobi{
+   background-color: #f2f7f5;
    text-align:center;
    margin:auto;
-   width:50%;
-   padding:10px 15px 10px 10px;
-   /*border:10px ridge rgb(150,20,20);*/
+   width:100%;
+   padding:20px 0px 10px 0px;
+   border:0px ridge rgb(150,20,20);    
+    
+      
+}
+
+#projects{
+}
+
+
+
+
+a{
+    color:#e16162;
 }
 a:hover, a:active, a:focus { 
     /*background-color: rgb(255, 0, 251);*/
-    background-color: #1BA9CD
+    color: #001e1d;
+    /*background-color: #f9bc60;*/
 }  
 /*
 CSS rules that all paragraphs have by default
 */
 p{
     padding:0px 20px 0px 20px;
+    
     overflow:scroll;
 }
+
+
 /*
 rule for intro header
 */
 #intro-header{
+    color: #fffffe;
     font-size: 20px;
+}
+
+/*
+RULES for Mobi Header
+*/
+#mobi-header{
+    color:#00473e;
+    font-size 20px;
+}
+
+/*
+Rules for project Header
+*/
+#project-header{
+
 }
 
 /*
 CSS rules for only first paragraph
 */
-#first-paragraph{
+#intro-paragraph{
     /*background:rgb(200,200,200);*/
+    color: #abd1c6;
+    text-align: left;
+    margin: auto;
+    width:75%;
+    padding:20px 0px 20px 20px;
 }
 
-.profile-image{
+#profile-image{
     height:200px;
-    border:10px ridge rgb(124,90,7);
+    float: right;
+    margin: 20px;
+    border:10px ridge #483A3A;
 }
+
+
+#mobi-logo-image{
+    margin:20px;
+    width:auto;
+    overflow:visible;
+}
+
+
+
+
+/*
+link to page where to find the hues/colors: https://www.happyhues.co/palettes/10
+list of hues/colors used
+
+intro section:#10
+    Elements        
+        background:#004643
+        Headline:#fffffe
+        Paragraph:#abd1c6
+        Button:#f9bc60
+        Button Text:#001e1d
+    Illustration    
+        Stroke: #001e1d
+        Main: #e8e4e6
+        Highlight: #f9bc60
+        Secondary: #abd1c6
+        Tertiary:  #e16162  
+        
+mobi section:#05
+    Elements    
+        background:#f2f7f5
+        Headline:#00473e
+        Paragraph:#475d5b
+        Button:#faae2b
+        Button Text:#00473e
+    illustrations  
+        Stroke: #00332c
+        Main: #f2f7f5
+        Highlight: #faae2b
+        Secondary: #ffa8ba
+        Tertiary:   #fa5246
+    
+projects section: (colors will change)
+    Elements
+        background:#004643
+        Headline:#fffffe
+        Paragraph:#abd1c6
+        Button:#f9bc60
+        Button Text:#001e1d
+    Illustration
+        Stroke: #001e1d
+        Main: #e8e4e6
+        Highlight: #f9bc60
+        Secondary: #abd1c6
+        Tertiary:  #e16162 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

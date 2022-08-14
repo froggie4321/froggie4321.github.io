@@ -3,7 +3,8 @@
 CSS rules for the whole body
 */
 body{
-margin:0;
+    
+    margin:0;
 }
 /*
 CSS rules for the introduction section
@@ -14,24 +15,50 @@ CSS rules for the introduction section
    
    width:100%;
    padding:20px 0px 10px 0px;
-   border:0px ridge rgb(150,20,20);
+   border:10px ridge rgb(20,150,20);
 }
 /*
 CSS rules for the mobi section
 */
 #mobi{
+   overflow: hidden;
    background-color: #f2f7f5;
-   text-align:center;
-   margin:auto;
+   text-align: center;
    width:100%;
-   padding:20px 0px 10px 0px;
-   border:0px ridge rgb(150,20,20);    
+   padding:auto;
+   border:10px ridge rgb(150,20,20);    
     
       
 }
 
 #projects{
 }
+
+/*
+left chunk of text on the mobi section
+*/
+#mobi-left{
+    overflow: hidden;
+    margin:50px;
+    width:auto;
+    border:10px ridge rgb(150,20,20);  
+    
+}
+
+/*
+right chunk of text on the mobi section
+*/
+#mobi-right{
+    overflow: hidden;
+    margin:50px;
+    width:auto;
+    border:10px ridge rgb(150,20,20);  
+}
+
+
+
+
+
 
 
 
@@ -49,7 +76,6 @@ CSS rules that all paragraphs have by default
 */
 p{
     padding:0px 20px 0px 20px;
-    
     overflow:scroll;
 }
 
@@ -73,7 +99,7 @@ RULES for Mobi Header
 /*
 Rules for project Header
 */
-#project-header{
+#projects-header{
 
 }
 
@@ -89,6 +115,25 @@ CSS rules for only first paragraph
     padding:20px 0px 20px 20px;
 }
 
+
+/*
+mobi left paragraph css
+*/
+#mobi-paragraph-left{
+    text-align: left;  
+}
+
+/*
+mobi righ paragraph css
+*/
+#mobi-paragraph-right{
+    text-align: left;
+}
+
+
+/*
+profile image css
+*/
 #profile-image{
     height:200px;
     float: right;
@@ -96,15 +141,29 @@ CSS rules for only first paragraph
     border:10px ridge #483A3A;
 }
 
-
+/*
+mobi logo images css
+*/
 #mobi-logo-image{
-    margin:20px;
-    width:auto;
-    overflow:visible;
+    margin:0;
+    width:95%;
+    padding:20px 0px 0px 0px;
+    
 }
 
+#mobi-image-1{
+    width:300px;
+    float: right;
+    margin: 20px;
+   
+}
 
-
+#mobi-image-2{
+    width:300px;
+    float: left;
+    margin: 20px;
+   
+}
 
 /*
 link to page where to find the hues/colors: https://www.happyhues.co/palettes/10

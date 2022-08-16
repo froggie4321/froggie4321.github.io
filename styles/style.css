@@ -21,17 +21,21 @@ CSS rules for the introduction section
 CSS rules for the mobi section
 */
 #mobi{
-   overflow: hidden;
+   
    background-color: #f2f7f5;
    text-align: center;
    width:100%;
-   padding:auto;
+  
    border:10px ridge rgb(150,20,20);    
     
       
 }
 
 #projects{
+    text-align:center;
+    width:100%;
+    background-color:#232946;
+    border:10px ridge rgb(20,20,150);
 }
 
 /*
@@ -56,25 +60,68 @@ right chunk of text on the mobi section
 }
 
 
+/*
+CSS rules for projects divs
+*/
+#projects-first{
+    overflow: hidden;
+    margin:50px;
+    width:auto;
+    border:10px ridge rgb(150,20,20);  
+
+}
+#projects-second{
+overflow: hidden;
+    margin:50px;
+    width:auto;
+    border:10px ridge rgb(150,20,20);  
+
+}
+
+#projects-first-text{
+    text-align:left;
+    float: left;
+    width:50%;
+    border:10px ridge rgb(20,20,150); 
+}
+#projects-second-text{
+    text-align:left;
+    float: right;
+    width:50%;
+    border:10px ridge rgb(20,20,150); 
+}
 
 
 
-
-
-
+/*
+CSS rules for all links
+*/
 
 a{
+    text-shadow: 2px 2px 4px #000000;
     color:#e16162;
 }
 a:hover, a:active, a:focus { 
     /*background-color: rgb(255, 0, 251);*/
     color: #001e1d;
     /*background-color: #f9bc60;*/
-}  
+} 
+
+/*
+CSS rules for mobi links
+*/
+#mobi a{
+    text-shadow:None;
+   }
+#mobi a:hover a:active a:focus{
+    
+}
+ 
 /*
 CSS rules that all paragraphs have by default
 */
 p{
+    
     padding:0px 20px 0px 20px;
     overflow:scroll;
 }
@@ -86,6 +133,7 @@ rule for intro header
 #intro-header{
     color: #fffffe;
     font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 /*
@@ -93,15 +141,27 @@ RULES for Mobi Header
 */
 #mobi-header{
     color:#00473e;
-    font-size 20px;
+    
 }
 
 /*
 Rules for project Header
 */
 #projects-header{
-
+    font-size:50px;
+    text-shadow: 2px 2px 4px #000000;
+    color:#fffffe;
 }
+
+#projects-header-first{
+    color:#eebbc3;
+}
+#projects-header-second{
+    color:#eebbc3;
+}
+
+
+
 
 /*
 CSS rules for only first paragraph
@@ -112,6 +172,7 @@ CSS rules for only first paragraph
     text-align: left;
     margin: auto;
     width:75%;
+    text-shadow: 2px 2px 4px #000000;
     padding:20px 0px 20px 20px;
 }
 
@@ -121,6 +182,7 @@ mobi left paragraph css
 */
 #mobi-paragraph-left{
     text-align: left;  
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 /*
@@ -128,7 +190,28 @@ mobi righ paragraph css
 */
 #mobi-paragraph-right{
     text-align: left;
+    text-shadow: 2px 2px 4px #ffffff;
 }
+
+/*
+project paragraphs css 
+*/
+#projects-paragraph-first{
+    color:#b8c1ec;
+    text-align:left;
+    text-shadow: 2px 2px 4px #000000;
+     
+}
+
+#projects-paragraph-second{
+    color:#b8c1ec;
+    text-align:left;
+    text-shadow: 2px 2px 4px #000000;
+     
+}
+
+
+
 
 
 /*
@@ -147,22 +230,50 @@ mobi logo images css
 #mobi-logo-image{
     margin:0;
     width:95%;
+    
     padding:20px 0px 0px 0px;
     
 }
 
 #mobi-image-1{
     width:300px;
-    float: right;
+    float: left;
+    box-shadow:10px 10px 5px lightblue;
     margin: 20px;
    
 }
 
 #mobi-image-2{
     width:300px;
-    float: left;
+    float: right;
+    box-shadow:10px 10px 5px lightblue;
     margin: 20px;
    
+}
+
+#projects-images-first{
+    overflow: hidden;
+    float:right;
+    width:45%;
+    border:10px ridge rgb(20,150,20);
+    
+}
+#projects img{
+    width: auto;
+    height:400px;
+    
+}
+
+
+#projects-images-second{
+    overflow: auto;
+    float:left;
+    width:45%;
+    border:10px ridge rgb(20,150,20);
+}
+#projects-images-second img{
+    width:100%;
+    height:auto;
 }
 
 /*
@@ -199,17 +310,17 @@ mobi section:#05
     
 projects section: (colors will change)
     Elements
-        background:#004643
-        Headline:#fffffe
-        Paragraph:#abd1c6
-        Button:#f9bc60
-        Button Text:#001e1d
+        background: #232946
+        Headline: #fffffe
+        Paragraph: #b8c1ec
+        Button: #eebbc3
+        Button Text: #232946
     Illustration
-        Stroke: #001e1d
-        Main: #e8e4e6
-        Highlight: #f9bc60
-        Secondary: #abd1c6
-        Tertiary:  #e16162 
+        Stroke:  #121629
+        Main:  #b8c1ec
+        Highlight: #eebbc3
+        Secondary: #fffffe
+        Tertiary:  #eebbc3
 */
 
 

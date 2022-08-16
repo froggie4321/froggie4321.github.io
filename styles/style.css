@@ -43,8 +43,8 @@ left chunk of text on the mobi section
 */
 #mobi-left{
     overflow: hidden;
-    margin:50px;
-    width:auto;
+    margin: auto;
+    width:80%;
     border:10px ridge rgb(150,20,20);  
     
 }
@@ -54,8 +54,8 @@ right chunk of text on the mobi section
 */
 #mobi-right{
     overflow: hidden;
-    margin:50px;
-    width:auto;
+    margin:auto;
+    width:80%;
     border:10px ridge rgb(150,20,20);  
 }
 
@@ -202,6 +202,21 @@ project paragraphs css
     text-shadow: 2px 2px 4px #000000;
      
 }
+#projects-first-list-header{
+    color:#eebbc3;
+    text-align:left;
+    
+}
+#projects-first-list-items{
+    color:#b8c1ec;
+    text-align:left;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.projects-keywords{
+    color:#fffffe;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 #projects-paragraph-second{
     color:#b8c1ec;
@@ -210,7 +225,16 @@ project paragraphs css
      
 }
 
-
+#projects-second-list-header{
+    color:#eebbc3;
+    text-align:left;
+    
+}
+#projects-second-list-items{
+    color:#b8c1ec;
+    text-align:left;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 
 
@@ -218,9 +242,9 @@ project paragraphs css
 profile image css
 */
 #profile-image{
-    height:200px;
+    width:30%;
     float: right;
-    margin: 20px;
+    margin: auto;
     border:10px ridge #483A3A;
 }
 
@@ -236,7 +260,7 @@ mobi logo images css
 }
 
 #mobi-image-1{
-    width:300px;
+    width:30%;
     float: left;
     box-shadow:10px 10px 5px lightblue;
     margin: 20px;
@@ -244,7 +268,7 @@ mobi logo images css
 }
 
 #mobi-image-2{
-    width:300px;
+    width:30%;
     float: right;
     box-shadow:10px 10px 5px lightblue;
     margin: 20px;
@@ -259,8 +283,7 @@ mobi logo images css
     
 }
 #projects img{
-    width: auto;
-    height:400px;
+    width: 20%;
     
 }
 

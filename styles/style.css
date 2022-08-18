@@ -3,8 +3,14 @@
 CSS rules for the whole body
 */
 body{
-    
+    padding:0%;
     margin:0;
+}
+/*
+css rules to hide the footer.
+*/
+footer{
+    background-color: #232946;
 }
 /*
 CSS rules for the introduction section
@@ -15,7 +21,7 @@ CSS rules for the introduction section
    
    width:100%;
    padding:20px 0px 10px 0px;
-   border:10px ridge rgb(20,150,20);
+   
 }
 /*
 CSS rules for the mobi section
@@ -26,7 +32,7 @@ CSS rules for the mobi section
    text-align: center;
    width:100%;
   
-   border:10px ridge rgb(150,20,20);    
+    
     
       
 }
@@ -35,7 +41,8 @@ CSS rules for the mobi section
     text-align:center;
     width:100%;
     background-color:#232946;
-    border:10px ridge rgb(20,20,150);
+    overflow:hidden;
+   
 }
 
 /*
@@ -45,7 +52,7 @@ left chunk of text on the mobi section
     overflow: hidden;
     margin: auto;
     width:80%;
-    border:10px ridge rgb(150,20,20);  
+   
     
 }
 
@@ -56,7 +63,7 @@ right chunk of text on the mobi section
     overflow: hidden;
     margin:auto;
     width:80%;
-    border:10px ridge rgb(150,20,20);  
+     
 }
 
 
@@ -67,14 +74,14 @@ CSS rules for projects divs
     overflow: hidden;
     margin:50px;
     width:auto;
-    border:10px ridge rgb(150,20,20);  
+      
 
 }
 #projects-second{
-overflow: hidden;
+    overflow: hidden;
     margin:50px;
     width:auto;
-    border:10px ridge rgb(150,20,20);  
+     
 
 }
 
@@ -82,13 +89,13 @@ overflow: hidden;
     text-align:left;
     float: left;
     width:50%;
-    border:10px ridge rgb(20,20,150); 
+    
 }
 #projects-second-text{
     text-align:left;
     float: right;
     width:50%;
-    border:10px ridge rgb(20,20,150); 
+     
 }
 
 
@@ -154,10 +161,10 @@ Rules for project Header
 }
 
 #projects-header-first{
-    color:#eebbc3;
+    color:#fffffe;
 }
 #projects-header-second{
-    color:#eebbc3;
+    color:#fffffe;
 }
 
 
@@ -203,7 +210,7 @@ project paragraphs css
      
 }
 #projects-first-list-header{
-    color:#eebbc3;
+    color:#fffffe;
     text-align:left;
     
 }
@@ -226,7 +233,7 @@ project paragraphs css
 }
 
 #projects-second-list-header{
-    color:#eebbc3;
+    color:#fffffe;
     text-align:left;
     
 }
@@ -279,7 +286,7 @@ mobi logo images css
     overflow: hidden;
     float:right;
     width:45%;
-    border:10px ridge rgb(20,150,20);
+    
     
 }
 #projects img{
@@ -292,7 +299,7 @@ mobi logo images css
     overflow: auto;
     float:left;
     width:45%;
-    border:10px ridge rgb(20,150,20);
+    
 }
 #projects-images-second img{
     width:100%;

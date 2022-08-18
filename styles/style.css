@@ -3,8 +3,8 @@
 CSS rules for the whole body
 */
 body{
-    padding:0%;
-    margin:0;
+    padding: 0%;
+    margin: 0;
 }
 /*
 css rules to hide the footer.
@@ -17,10 +17,10 @@ CSS rules for the introduction section
 */
 #introduction{
    background-color: #004643;
-   text-align:center;
+   text-align: center;
    
-   width:100%;
-   padding:20px 0px 10px 0px;
+   width: 100%;
+   padding: 20px 0px 10px 0px;
    
 }
 /*
@@ -30,7 +30,7 @@ CSS rules for the mobi section
    
    background-color: #f2f7f5;
    text-align: center;
-   width:100%;
+   width: 100%;
   
     
     
@@ -38,10 +38,10 @@ CSS rules for the mobi section
 }
 
 #projects{
-    text-align:center;
-    width:100%;
-    background-color:#232946;
-    overflow:hidden;
+    text-align: center;
+    width: 100%;
+    background-color: #232946;
+    overflow: hidden;
    
 }
 
@@ -51,7 +51,7 @@ left chunk of text on the mobi section
 #mobi-left{
     overflow: hidden;
     margin: auto;
-    width:80%;
+    width: 80%;
    
     
 }
@@ -61,8 +61,8 @@ right chunk of text on the mobi section
 */
 #mobi-right{
     overflow: hidden;
-    margin:auto;
-    width:80%;
+    margin: auto;
+    width: 80%;
      
 }
 
@@ -72,29 +72,29 @@ CSS rules for projects divs
 */
 #projects-first{
     overflow: hidden;
-    margin:50px;
-    width:auto;
+    margin: 50px;
+    width: auto;
       
 
 }
 #projects-second{
     overflow: hidden;
-    margin:50px;
-    width:auto;
+    margin: 50px;
+    width: auto;
      
 
 }
 
 #projects-first-text{
-    text-align:left;
+    text-align: left;
     float: left;
-    width:50%;
+    width: 50%;
     
 }
 #projects-second-text{
-    text-align:left;
+    text-align: left;
     float: right;
-    width:50%;
+    width: 50%;
      
 }
 
@@ -106,7 +106,7 @@ CSS rules for all links
 
 a{
     text-shadow: 2px 2px 4px #000000;
-    color:#e16162;
+    color: #e16162;
 }
 a:hover, a:active, a:focus { 
     /*background-color: rgb(255, 0, 251);*/
@@ -118,7 +118,7 @@ a:hover, a:active, a:focus {
 CSS rules for mobi links
 */
 #mobi a{
-    text-shadow:None;
+    text-shadow: None;
    }
 #mobi a:hover a:active a:focus{
     
@@ -129,8 +129,8 @@ CSS rules that all paragraphs have by default
 */
 p{
     
-    padding:0px 20px 0px 20px;
-    overflow:scroll;
+    padding: 0px 20px 0px 20px;
+    overflow: scroll;
 }
 
 
@@ -147,7 +147,7 @@ rule for intro header
 RULES for Mobi Header
 */
 #mobi-header{
-    color:#00473e;
+    color: #00473e;
     
 }
 
@@ -155,16 +155,16 @@ RULES for Mobi Header
 Rules for project Header
 */
 #projects-header{
-    font-size:50px;
+    font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
-    color:#fffffe;
+    color: #fffffe;
 }
 
 #projects-header-first{
-    color:#fffffe;
+    color: #fffffe;
 }
 #projects-header-second{
-    color:#fffffe;
+    color: #fffffe;
 }
 
 
@@ -178,9 +178,9 @@ CSS rules for only first paragraph
     color: #abd1c6;
     text-align: left;
     margin: auto;
-    width:75%;
+    width: 75%;
     text-shadow: 2px 2px 4px #000000;
-    padding:20px 0px 20px 20px;
+    padding: 20px 0px 20px 20px;
 }
 
 
@@ -204,42 +204,42 @@ mobi righ paragraph css
 project paragraphs css 
 */
 #projects-paragraph-first{
-    color:#b8c1ec;
-    text-align:left;
+    color: #b8c1ec;
+    text-align: left;
     text-shadow: 2px 2px 4px #000000;
      
 }
 #projects-first-list-header{
-    color:#fffffe;
-    text-align:left;
+    color: #fffffe;
+    text-align: left;
     
 }
 #projects-first-list-items{
-    color:#b8c1ec;
-    text-align:left;
+    color: #b8c1ec;
+    text-align: left;
     text-shadow: 2px 2px 4px #000000;
 }
 
 .projects-keywords{
-    color:#fffffe;
+    color: #fffffe;
     text-shadow: 2px 2px 4px #000000;
 }
 
 #projects-paragraph-second{
-    color:#b8c1ec;
-    text-align:left;
+    color: #b8c1ec;
+    text-align: left;
     text-shadow: 2px 2px 4px #000000;
      
 }
 
 #projects-second-list-header{
-    color:#fffffe;
-    text-align:left;
+    color: #fffffe;
+    text-align: left;
     
 }
 #projects-second-list-items{
-    color:#b8c1ec;
-    text-align:left;
+    color: #b8c1ec;
+    text-align: left;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -249,43 +249,43 @@ project paragraphs css
 profile image css
 */
 #profile-image{
-    width:30%;
+    width: 30%;
     float: right;
     margin: auto;
-    border:10px ridge #483A3A;
+    border: 10px ridge #483A3A;
 }
 
 /*
 mobi logo images css
 */
 #mobi-logo-image{
-    margin:0;
-    width:95%;
+    margin: 0;
+    width: 95%;
     
-    padding:20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     
 }
 
 #mobi-image-1{
-    width:30%;
+    width: 30%;
     float: left;
-    box-shadow:10px 10px 5px lightblue;
+    box-shadow: 10px 10px 5px lightblue;
     margin: 20px;
    
 }
 
 #mobi-image-2{
-    width:30%;
+    width: 30%;
     float: right;
-    box-shadow:10px 10px 5px lightblue;
+    box-shadow: 10px 10px 5px lightblue;
     margin: 20px;
    
 }
 
 #projects-images-first{
     overflow: hidden;
-    float:right;
-    width:45%;
+    float: right;
+    width: 45%;
     
     
 }
@@ -297,13 +297,13 @@ mobi logo images css
 
 #projects-images-second{
     overflow: auto;
-    float:left;
-    width:45%;
+    float: left;
+    width: 45%;
     
 }
 #projects-images-second img{
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
 /*

@@ -251,7 +251,7 @@ profile image css
 #profile-image{
     width: 30%;
     float: right;
-    margin: auto;
+    margin: 20px;
     border: 10px ridge #483A3A;
 }
 

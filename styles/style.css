@@ -10,7 +10,7 @@ body{
 css rules to hide the footer.
 */
 footer{
-    background-color: #232946;
+    
 }
 /*
 CSS rules for the introduction section
@@ -32,7 +32,7 @@ CSS rules for the mobi section
    text-align: center;
    width: 100%;
   
-    
+  
     
       
 }
@@ -42,6 +42,7 @@ CSS rules for the mobi section
     width: 100%;
     background-color: #232946;
     overflow: hidden;
+    
    
 }
 
@@ -50,6 +51,7 @@ left chunk of text on the mobi section
 */
 #mobi-left{
     overflow: hidden;
+    align-items:center;
     margin: auto;
     width: 80%;
    
@@ -115,13 +117,16 @@ a:hover, a:active, a:focus {
 } 
 
 /*
-CSS rules for mobi links
+CSS rules for all other links
 */
 #mobi a{
-    text-shadow: None;
+    
+    text-shadow:none;
+    margin:20px 10px 20px 30px;
    }
 #mobi a:hover a:active a:focus{
-    
+   
+    color: black;
 }
  
 /*
@@ -267,7 +272,7 @@ mobi logo images css
 }
 
 #mobi-image-1{
-    width: 30%;
+    width: 50%;
     float: left;
     box-shadow: 10px 10px 5px lightblue;
     margin: 20px;
@@ -275,7 +280,7 @@ mobi logo images css
 }
 
 #mobi-image-2{
-    width: 30%;
+    width: 50%;
     float: right;
     box-shadow: 10px 10px 5px lightblue;
     margin: 20px;

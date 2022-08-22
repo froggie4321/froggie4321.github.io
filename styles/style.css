@@ -20,6 +20,7 @@ CSS rules for the introduction section
    text-align: center;
    
    width: 100%;
+  
    padding: 20px 0px 10px 0px;
    
 }
@@ -133,9 +134,9 @@ CSS rules for all other links
 CSS rules that all paragraphs have by default
 */
 p{
-    
-    padding: 0px 20px 0px 20px;
     overflow: scroll;
+    padding: 0px 20px 0px 20px;
+    
 }
 
 
@@ -214,11 +215,24 @@ project paragraphs css
     text-shadow: 2px 2px 4px #000000;
      
 }
+#projects-paragraph-first-second-half{
+    color: #b8c1ec;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+}
 #projects-first-list-header{
     color: #fffffe;
     text-align: left;
     
 }
+
+#projects-first-paragraph-order-list{
+    color: #b8c1ec;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
 #projects-first-list-items{
     color: #b8c1ec;
     text-align: left;
